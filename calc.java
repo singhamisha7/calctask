@@ -20,11 +20,17 @@ public class calc {
         switch (key) {
             // addition
             case 1:
-              
+
                 break;
             // substraction
             case 2:
-               
+                if (n1 > n2) {
+                    result = n1 - n2;
+                } else {
+                    result = n2 - n1;
+                }
+                System.out.println("The difference of " + n1 + " and " + n2 + " is " + result);
+
                 break;
             // multiplication
             case 3:
