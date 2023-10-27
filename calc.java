@@ -34,7 +34,8 @@ public class calc {
                 break;
             // division
             case 4:
-
+                result = n1 / n2;
+                System.out.println("The quotient of " + n1 + " / " + n2 + " is " + result);
                 break;
             // default statement
             default:
