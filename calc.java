@@ -20,13 +20,11 @@ public class calc {
         switch (key) {
             // addition
             case 1:
-                result = n1 + n2;
-                System.out.println("The sum of " + n1 + " and " + n2 + " is " + result);
-
+              
                 break;
             // substraction
             case 2:
-
+               
                 break;
             // multiplication
             case 3:
