@@ -20,11 +20,11 @@ public class calc {
         switch (key) {
             // addition
             case 1:
-              
+
                 break;
             // substraction
             case 2:
-               
+
                 break;
             // multiplication
             case 3:
@@ -32,7 +32,8 @@ public class calc {
                 break;
             // division
             case 4:
-
+                result = n1 / n2;
+                System.out.println("The quotient of " + n1 + " / " + n2 + " is " + result);
                 break;
             // default statement
             default:
